@@ -12,3 +12,4 @@ def line(katz_deli)
     puts people_in_line + line 
   end
 end
+
