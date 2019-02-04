@@ -18,3 +18,9 @@ def take_a_number(katz_deli, name)
   customer_number = katz_deli.length
   puts "Welcome, #{name}. You are number #{customer_number} in line."
 end
+
+def now_serving(katz_deli)
+  if katz_deli.empty?
+    puts "The line is empty"
+  else 
+    puts "Currently serving #{katz_deli.first}."
